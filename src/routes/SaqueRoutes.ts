@@ -1,5 +1,5 @@
 import { Router } from "express";
-import {SaqueController} from '../controllers/SaqueController';
+import { SaqueController } from '../controllers/SaqueController';
 
 
 export const router = Router();
