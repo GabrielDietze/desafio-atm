@@ -6,9 +6,9 @@ export const SaqueController = {
           // Extrai o valor do corpo da requisição  
           const { valor }: { valor: number } = req.body;
 
-          // Verifica se a chave "valor" está presente no corpo da requisição 
+             // Verifica se a chave "valor" está presente no corpo da requisição
           if (valor === undefined) {
-               res.status(400).json({ error: 'A chave "valor" deve estar presente no corpo da requisição' });
+            res.status(400).json({ error: 'A chave "valor" deve estar presente no corpo da requisição' });
           }
           // Valida se o valor é um número
           else if (typeof valor !== 'number') {

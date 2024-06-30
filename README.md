@@ -69,20 +69,20 @@ Este projeto inclui testes automatizados para validar a funcionalidade da funç�
 Para executar este projeto localmente e utilizar a API, siga os passos abaixo:
 
 1. Clonar o Repositório:
-git clone https://github.com/GabrielDietze/desafio-atm.git
-cd desafio-atm
+- git clone https://github.com/GabrielDietze/desafio-atm.git
+- cd desafio-atm
 
 2. Instalar Dependências:
-npm install
+- npm install
 
 3. Executar o Servidor:
-npm start
+- npm start
 
 4. Acessar a API:
 A API estará disponível em http://localhost:8080/api/saque
 
 5. Realizar um Saque:
-Para realizar um saque, faça uma requisição POST para o endpoint /api/saque com o valor desejado como um parâmetro de consulta. Por exemplo:
-curl -X POST http://localhost:8080/api/saque?valor=380
+- Para realizar um saque, faça uma requisição POST para o endpoint /api/saque com o valor desejado como um parâmetro de consulta. Por exemplo:
+- curl -X POST http://localhost:8080/api/saque?valor=380
 
-Isso retornará um JSON com a distribuição das notas conforme exemplificado acima.
+- Isso retornará um JSON com a distribuição das notas conforme exemplificado acima.
