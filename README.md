@@ -61,10 +61,6 @@ Para realizar um saque, faça uma requisição POST ao endpoint `/API/SAQUE` com
     "2": 0
   }
 
-## Testes Automatizados
-
-Este projeto inclui testes automatizados para validar a funcionalidade da função de saque implementada. Eles podem ser encontrados na pasta tests do repositório.
-
 ### Como Usar o Projeto
 Para executar este projeto localmente e utilizar a API, siga os passos abaixo:
 
@@ -86,3 +82,18 @@ A API estará disponível em http://localhost:8080/api/saque
 - curl -X POST http://localhost:8080/api/saque?valor=380
 
 - Isso retornará um JSON com a distribuição das notas conforme exemplificado acima.
+
+
+## Testes Automatizados
+
+Este projeto inclui testes automatizados para validar a funcionalidade da função de saque implementada. Eles podem ser encontrados na pasta tests do repositório.
+
+Como executar os testes:
+
+1. Certifique-se de que todas as dependências estão instaladas:
+- npm install
+
+2. Executar os testes:
+- npm test
+
+Isso executará os testes automatizados e exibirá os resultados no terminal.
